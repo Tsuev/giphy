@@ -1,3 +1,3 @@
-import { renderGif } from "./view.js";
+import { initApp } from './events.js'
 
-window.onload = () => renderGif();
+initApp()
